@@ -8,6 +8,7 @@ Public pages for Salio — support, privacy policy, and marketing — published 
 ├── index.html          # marketing / landing page
 ├── support.html        # support + FAQ (App Store Connect "Support URL")
 ├── privacy.html         # privacy policy (App Store Connect "Privacy Policy URL")
+├── terms.html           # terms of use (linked from the app's in-app Settings screen)
 ├── assets/
 │   ├── css/styles.css  # shared design system (black-and-gold, EB Garamond)
 │   └── img/            # icon, favicon, og-image
@@ -27,7 +28,7 @@ To use a custom subdomain (e.g. `salio.santrico-apps.com`) instead, add a `CNAME
 
 ## Before submitting to App Store Connect
 
-- [ ] Confirm the support email — pages currently use `support@santrico-apps.com` as a placeholder.
+- [x] Support email confirmed as `Santrico.support@gmail.com` (used consistently across `support.html`, `privacy.html`, and `terms.html`).
 - [ ] `assets/img/` favicon, apple-touch-icon, and the og-image mark are generated from the real app icon. Replace `og-image.png` with an official marketing asset if design wants something more custom than the auto-generated wordmark composition.
 - [ ] Replace the illustrative phone mockups on the marketing page (`index.html` → `#screenshots`) with the real 5 App Store screenshot PNGs.
 - [ ] Add an App Store download badge/link back into `index.html` once Salio has a live `apps.apple.com` listing (removed for now since there's nothing to link to yet).
@@ -36,5 +37,6 @@ To use a custom subdomain (e.g. `salio.santrico-apps.com`) instead, add a `CNAME
 - [ ] Set **App Information → Marketing URL** (optional) to the published `index.html` URL.
 - [ ] Set **General App Information → Support URL** to the published `support.html` URL.
 - [ ] Declare "Data Not Collected" in the App Privacy (Privacy Nutrition Label) section if it remains accurate.
+- [ ] Confirm Santrico LLC's actual state/country of organization and name it explicitly in `terms.html`'s Governing Law section (see the `TODO(terms)` comment in that file) rather than leaving it generic.
 
 Keep the live policy text and the App Store/Google Play declarations in sync with whatever the app actually collects — a mismatch here is a common cause of rejection.
