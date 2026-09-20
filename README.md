@@ -1,6 +1,6 @@
-# Wake Uppy Web
+# Salio Web
 
-Public pages for Wake Uppy — support, privacy policy, and marketing — published as a static site via GitHub Pages. No backend, no build step, no framework.
+Public pages for Salio — support, privacy policy, and marketing — published as a static site via GitHub Pages. No backend, no build step, no framework.
 
 ## Structure
 
@@ -23,14 +23,14 @@ All internal links are relative, so the site works unchanged under both the defa
 3. Save, wait a minute or two, then visit `https://<username>.github.io/<repo>/`.
 4. Enable **Enforce HTTPS** once the certificate is issued.
 
-To use a custom subdomain (e.g. `uppy.santrico-apps.com`) instead, add a `CNAME` file at the repo root containing that subdomain, and point a CNAME DNS record at the registrar to `<username>.github.io`.
+To use a custom subdomain (e.g. `salio.santrico-apps.com`) instead, add a `CNAME` file at the repo root containing that subdomain, and point a CNAME DNS record at the registrar to `<username>.github.io`.
 
 ## Before submitting to App Store Connect
 
 - [ ] Confirm the support email — pages currently use `support@santrico-apps.com` as a placeholder.
-- [ ] Replace the placeholder icon/favicon/og-image in `assets/img/` with the real app icon and App Store screenshot assets.
+- [ ] `assets/img/` favicon, apple-touch-icon, and the og-image mark are generated from the real app icon. Replace `og-image.png` with an official marketing asset if design wants something more custom than the auto-generated wordmark composition.
 - [ ] Replace the illustrative phone mockups on the marketing page (`index.html` → `#screenshots`) with the real 5 App Store screenshot PNGs.
-- [ ] Swap the "Coming soon" App Store badge links in `index.html` for the real `apps.apple.com` listing URL once Wake Uppy is live.
+- [ ] Swap the "Coming soon" App Store badge links in `index.html` for the real `apps.apple.com` listing URL once Salio is live.
 - [ ] Confirm whether captured dismiss-mission photos are discarded immediately after on-device verification or retained locally for any period — `privacy.html` currently states they're discarded immediately (see the `TODO(privacy)` comment in that file). This must match the shipping build exactly, since it's cross-checked against Apple's Privacy Nutrition Label and Google Play's Data Safety form.
 - [ ] Set **App Information → Privacy Policy URL** to the published `privacy.html` URL.
 - [ ] Set **App Information → Marketing URL** (optional) to the published `index.html` URL.
