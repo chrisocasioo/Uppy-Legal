@@ -37,6 +37,6 @@ To use a custom subdomain (e.g. `salio.santrico-apps.com`) instead, add a `CNAME
 - [ ] Set **App Information → Marketing URL** (optional) to the published `index.html` URL.
 - [ ] Set **General App Information → Support URL** to the published `support.html` URL.
 - [ ] Declare "Data Not Collected" in the App Privacy (Privacy Nutrition Label) section if it remains accurate.
-- [ ] Confirm Santrico LLC's actual state/country of organization and name it explicitly in `terms.html`'s Governing Law section (see the `TODO(terms)` comment in that file) rather than leaving it generic.
+- [x] Governing law confirmed as the State of Missouri, USA (`terms.html`, Section 11).
 
 Keep the live policy text and the App Store/Google Play declarations in sync with whatever the app actually collects — a mismatch here is a common cause of rejection.
