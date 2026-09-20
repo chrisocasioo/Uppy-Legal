@@ -30,7 +30,7 @@ To use a custom subdomain (e.g. `salio.santrico-apps.com`) instead, add a `CNAME
 - [ ] Confirm the support email — pages currently use `support@santrico-apps.com` as a placeholder.
 - [ ] `assets/img/` favicon, apple-touch-icon, and the og-image mark are generated from the real app icon. Replace `og-image.png` with an official marketing asset if design wants something more custom than the auto-generated wordmark composition.
 - [ ] Replace the illustrative phone mockups on the marketing page (`index.html` → `#screenshots`) with the real 5 App Store screenshot PNGs.
-- [ ] Swap the "Coming soon" App Store badge links in `index.html` for the real `apps.apple.com` listing URL once Salio is live.
+- [ ] Add an App Store download badge/link back into `index.html` once Salio has a live `apps.apple.com` listing (removed for now since there's nothing to link to yet).
 - [ ] Confirm whether captured dismiss-mission photos are discarded immediately after on-device verification or retained locally for any period — `privacy.html` currently states they're discarded immediately (see the `TODO(privacy)` comment in that file). This must match the shipping build exactly, since it's cross-checked against Apple's Privacy Nutrition Label and Google Play's Data Safety form.
 - [ ] Set **App Information → Privacy Policy URL** to the published `privacy.html` URL.
 - [ ] Set **App Information → Marketing URL** (optional) to the published `index.html` URL.

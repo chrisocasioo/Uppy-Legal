@@ -351,7 +351,7 @@ hr {
 /* Marketing / hero */
 
 .hero {
-  padding: 96px 0 64px;
+  padding: 96px 0 88px;
   text-align: center;
 }
 
@@ -366,60 +366,8 @@ hr {
 
 .hero .lede {
   max-width: 46ch;
-  margin: 0 auto 34px;
+  margin: 0 auto;
   font-size: 19px;
-}
-
-.hero-actions {
-  display: flex;
-  justify-content: center;
-  gap: 16px;
-  flex-wrap: wrap;
-  margin-bottom: 8px;
-}
-
-.badge-row {
-  display: flex;
-  justify-content: center;
-  margin-top: 6px;
-}
-
-.app-store-badge {
-  display: inline-flex;
-  align-items: center;
-  gap: 10px;
-  border: 1px solid var(--border);
-  border-radius: 12px;
-  padding: 10px 20px;
-  color: var(--ink);
-  background: var(--surface);
-}
-
-.app-store-badge:hover {
-  border-color: var(--gold);
-  text-decoration: none;
-  color: var(--gold-light);
-}
-
-.app-store-badge svg {
-  flex-shrink: 0;
-}
-
-.app-store-badge .badge-text {
-  text-align: left;
-  line-height: 1.2;
-}
-
-.app-store-badge .badge-text small {
-  display: block;
-  font-size: 11px;
-  color: var(--ink-faint);
-}
-
-.app-store-badge .badge-text strong {
-  font-family: var(--font-display);
-  font-size: 18px;
-  font-weight: 500;
 }
 
 /* Feature grid */
@@ -577,7 +525,7 @@ hr {
 }
 
 .cta-band p {
-  margin-bottom: 28px;
+  margin-bottom: 0;
 }
 
 /* Responsive */
